@@ -1,5 +1,7 @@
 // var x = document.getElementsById("buyWT");
 var x = $("#buyWT").val()
+var y = $("#span").val()
+var z = $("#note").val()
 
 // $("#buyWT").click(function() {
 //     console.log($(this).val());
@@ -12,7 +14,7 @@ console.log(x);
 // document.getElementById("demo").innerHTML = x[1].innerHTML;
 // document.getElementById("demo").innerHTML = 55555;
 
-$("#definite").click(
+$(".definite").click(
     function() {
         $(":text").val($("#buyWT").val() + $("#span").val() + $("#note").val());
     }
